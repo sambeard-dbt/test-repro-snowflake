@@ -4,15 +4,6 @@ models:
   - name: int_temp_delete_ollie
     description: "Totals of columnone at productid and salesid level"
     columns:
-      - name: sk_pk
-        data_type: varchar
-        data_tests:
-          - unique
-          - not_null
-      - name: productid
-        data_type: varchar
-      - name: salesid
-        data_type: varchar
       - name: columnone
         data_type: number
       - name: columntwo

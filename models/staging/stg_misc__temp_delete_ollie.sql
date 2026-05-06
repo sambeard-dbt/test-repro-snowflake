@@ -4,7 +4,6 @@ with source as (
 
 renamed as (
     select
-        {{ dbt_utils.generate_surrogate_key(['"ProductID"', '"SalesID"']) }} as sk_pk,
         "ColumnOne"  as columnone,
         "ColumnTwo"  as columntwo,
         "ProductID"  as productid,
