@@ -4,9 +4,6 @@ with stg_misc__temp_delete_ollie as (
 
 final as (
     select
-        sk_pk,
-        productid,
-        salesid,
         columnone,
         columntwo,
         sum(columnone) over (partition by productid) as total_product_columnone,
