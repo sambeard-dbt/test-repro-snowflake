@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_misc__temp_delete_ollie
+    description: "Staging layer with renamed columns for ease of use downstream"
+    columns:
+      - name: sk_pk
+        data_type: varchar
+        description: "Surrogate key combining productid and salesid"
+        data_tests:
+          - unique
+          - not_null
+      - name: columnone
+        data_type: number
+        description: "Unquoted, case-insensitive version of ColumnOne"
+      - name: columntwo
+        data_type: number
+        description: "Unquoted, case-insensitive version of ColumnTwo"
+      - name: productid
+        data_type: varchar
+        description: "Unquoted, case-insensitive version of ProductID"
+      - name: salesid
+        data_type: varchar
+        description: "Unquoted, case-insensitive version of SalesID"

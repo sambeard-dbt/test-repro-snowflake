@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: del
+    database: cse_sandbox_database
+    schema: dbt_sbeard
+    quoting:
+      identifier: true
+    tables:
+      - name: Temp_Delete_Ollie
+        columns:
+          - name: ColumnOne
+            quote: true
+            data_tests:
+              - not_null
+          - name: ColumnTwo
+            quote: true
+          - name: ProductID
+            quote: true
+          - name: SalesID
+            quote: true
