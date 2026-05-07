@@ -1,5 +1,5 @@
 with source as (
-    select * from {{ source('del', 'Temp_Delete_Ollie') }}
+    select * from {{ source('del', 'Temp_Delete_Ollie_rename_test') }}
 ),
 
 renamed as (
