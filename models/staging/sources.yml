@@ -7,7 +7,7 @@ sources:
     quoting:
       identifier: true
     tables:
-      - name: Temp_Delete_Ollie_rename_test
+      - name: Temp_Delete_Ollie_rename_test_2
         columns:
           - name: column_one
             quote: true
