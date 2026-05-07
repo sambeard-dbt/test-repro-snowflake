@@ -9,13 +9,13 @@ sources:
     tables:
       - name: Temp_Delete_Ollie
         columns:
-          - name: ColumnOne
+          - name: column_one
             quote: true
             data_tests:
               - not_null
-          - name: ColumnTwo
+          - name: column_two
             quote: true
-          - name: ProductID
+          - name: product_id
             quote: true
-          - name: SalesID
+          - name: sales_id
             quote: true

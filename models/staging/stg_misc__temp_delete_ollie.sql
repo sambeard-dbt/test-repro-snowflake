@@ -4,10 +4,10 @@ with source as (
 
 renamed as (
     select
-        "ColumnOne"  as columnone,
-        "ColumnTwo"  as columntwo,
-        "ProductID"  as productid,
-        "SalesID"    as salesid
+        "column_one"  as columnone,
+        "column_two"  as columntwo,
+        "product_id"  as productid,
+        "sales_id"    as salesid
     from source
 )
 
