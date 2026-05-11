@@ -6,6 +6,8 @@ sources:
     schema: dbt_sbeard
     tables:
       - name: customers
+      - name: '"Customers_Two"'
+
 
   - name: del
     database: cse_sandbox_database
