@@ -7,15 +7,12 @@ sources:
     quoting:
       identifier: true
     tables:
-      - name: Temp_Delete_Ollie_rename_test_2
+      - name: Temp_Delete_Ollie_rename_test_3
         columns:
-          - name: column_one
+          - name: ColumnOne
             quote: true
-            data_tests:
-              - not_null
-          - name: column_two
+          - name: ColumnTwo
             quote: true
           - name: product_id
-            quote: true
-          - name: sales_id
+          - name: salesid
             quote: true

@@ -1,13 +1,13 @@
 with source as (
-    select * from {{ source('del', 'Temp_Delete_Ollie_rename_test_2') }}
+    select * from {{ source('del', 'Temp_Delete_Ollie_rename_test_3') }}
 ),
 
 renamed as (
     select
-        column_one  as columnone,
-        column_two  as columntwo,
+        "ColumnOne" as columnone,
+        ColumnTwo  as columntwo,
         product_id  as productid,
-        sales_id    as salesid
+        "salesid"    as salesid
     from source
 )
 
