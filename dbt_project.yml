@@ -40,9 +40,3 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
-
-quoting:
-  database: false
-  schema: false
-  identifier: false
-  snowflake_ignore_case: true

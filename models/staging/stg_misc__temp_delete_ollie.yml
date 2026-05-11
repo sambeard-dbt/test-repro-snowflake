@@ -4,15 +4,15 @@ models:
   - name: stg_misc__temp_delete_ollie
     description: "Staging layer with renamed columns for ease of use downstream"
     columns:
-      - name: columnone
+      - name: ColumnOne
         data_type: number
-        description: "Unquoted, case-insensitive version of ColumnOne"
-      - name: columntwo
+        description: "quotes in snowflake, case-insensitive version of ColumnOne"
+      - name: ColumnTwo
         data_type: number
-        description: "Unquoted, case-insensitive version of ColumnTwo"
-      - name: productid
+        description: "Unquoted in snowflake, case-insensitive version of ColumnTwo"
+      - name: product_id
         data_type: varchar
-        description: "Unquoted, case-insensitive version of ProductID"
+        description: "Unquoted, case-insensitive version of product_id"
       - name: salesid
         data_type: varchar
-        description: "Unquoted, case-insensitive version of SalesID"
+        description: "quoted in snowflake, case-insensitive version of salesid"
