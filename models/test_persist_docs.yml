@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: test_persist_docs
+    config:
+      description: "This is my model-level description"
+    columns:
+      - name: id
+        description: "Primary key"
