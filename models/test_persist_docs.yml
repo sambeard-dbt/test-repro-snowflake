@@ -2,8 +2,9 @@ version: 2
 
 models:
   - name: test_persist_docs
+    description: "This is my model-level description"
     config:
-      description: "This is my model-level description"
+      alias: access_history
     columns:
       - name: id
         description: "Primary key"
