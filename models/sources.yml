@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: large_schema
+    database: cse_sandbox_database
+    schema: dbt_sbeard_large_schema
+    tables:
+      - name: dummy_table_1
+        description: "Just one table from a very large schema"

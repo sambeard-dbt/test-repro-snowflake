@@ -1,5 +1,1 @@
-with source as (
-    select * from {{ source('del', 'Customers_Two') }}
-)
-
-select customer_name from source
+select * from {{ source('large_schema', 'dummy_table_1') }}
